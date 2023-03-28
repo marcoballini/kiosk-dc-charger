@@ -1,6 +1,6 @@
 #!/bin/bash
 
-folder_path="/home/fintel-dev/Downloads"
+folder_path="/home/wb/Downloads"
 
 appimage_file=$(find $folder_path -name "*.AppImage" -print -quit)
 
