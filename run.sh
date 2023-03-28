@@ -1,6 +1,7 @@
 #!/bin/bash
 
 folder_path="/home/wb/Downloads"
+cd $folder_path
 
 appimage_file=$(find $folder_path -name "*.AppImage" -print -quit)
 
