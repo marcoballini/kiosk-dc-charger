@@ -1,5 +1,7 @@
 #!/bin/bash
 
+xinput set-prop "TouchPlanet ETB" --type=float "Coordinate Transformation Matrix" 0 1 0 -1 0 1 0 0 1
+
 folder_path="/home/wb/Downloads"
 cd $folder_path
 
